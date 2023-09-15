@@ -1,0 +1,141 @@
+.header {
+    width: 100%;
+    background-color: rgb(219, 4, 4);
+}
+.nav-link{
+    color: rgb(244, 247, 245) !important;
+}
+.navbar-brand{
+    color: rgb(222, 233, 221) !important;
+}
+
+.kontak-form{
+    background-image: url(rog.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: red;
+}
+
+
+ h1{
+    text-align: left;
+    font-size: 30px;
+    color: red;
+    
+}
+
+.kontak-form input[type="text"],
+.kontak-form input[type="email"],
+.kontak-form input[type="password"],
+.kontak-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.kontak-form input[type="submit"] {
+    color: rgb(255, 255, 255); /* button text color */
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #eee;
+    letter-spacing: 0.0625em;
+    padding: 8px 10px; 
+    text-transform: uppercase;
+    font: bold 16px 'Bitter', sans-serif; /* use google font */
+    line-height: 2;
+    position: relative;
+      display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* remove underline if using A instead of BUTTON tag */
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.kontak-form input[type="submit"]:before,
+.kontak-form input[type="submit"]:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #259f6c; /* onhover background color */
+  z-index: -1;
+  transform: translate3D(0,-100%,0); /* move elements above button so they don't appear initially */
+  transition: all .5s;
+}
+
+.kontak-form input[type="submit"]:before{
+  background: #fffffc; /* button default background color */
+  z-index: -2;
+  transform: translate3D(0,0,0);
+}
+
+.kontak-form input[type="submit"]:hover{
+	color: rgb(252, 5, 5);
+}
+
+.kontak-form input[type="submit"]:hover:after{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+}
+
+.kontak-form input[type="reset"] {
+    color: rgb(247, 238, 238); /* button text color */
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #eee;
+    letter-spacing: 0.0625em;
+    padding: 8px 10px; 
+    text-transform: uppercase;
+    font: bold 16px 'Bitter', sans-serif; /* use google font */
+    line-height: 2;
+    position: relative;
+      display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* remove underline if using A instead of BUTTON tag */
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.kontak-form input[type="reset"]:before,
+.kontak-form input[type="reset"]:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #259f6c; /* onhover background color */
+  z-index: -1;
+  transform: translate3D(0,-100%,0); /* move elements above button so they don't appear initially */
+  transition: all .5s;
+}
+
+.kontak-form input[type="reset"]:before{
+    background: #fffffc; /* button default background color */
+    z-index: -2;
+    transform: translate3D(0,0,0);
+  }
+  
+  .kontak-form input[type="reset"]:hover{
+      color: rgb(240, 8, 8);
+  }
+  
+  .kontak-form input[type="reset"]:hover:after{
+    transform: translate3D(0,0,0);
+    transition: all .5s;
+  }

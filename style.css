@@ -1,0 +1,127 @@
+.header {
+    width: 100%;
+    background-color: rgb(2, 99, 99);
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: rgb(240, 240, 245) !important;
+}
+
+.hero {
+    height: 650px;
+    background-size: cover;
+    background-image: url("kantor hero.jpg");
+    text-align: center;
+    padding: 100px;
+
+}
+.hero h1{
+     color: azure;
+     font-size: 50px;
+}
+.hero p{
+    color: azure;
+    font-size: 30px;
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(19, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.hero a:hover{
+    background-color: aquamarine;
+    color: white;
+}
+
+.produk{
+    background-color: aqua;
+    height: 290px;
+    width: 230px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.produk img{
+    height: 170px;
+    width: 230px;
+    border-radius: 4px;
+}
+
+.nama-produk{
+    color: white;
+    font-size:20px;
+    margin-left: 20px;
+}
+.harga-produk{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.produk a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(19, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.menu-produk{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: green;
+}
+@media screen and (max width : 768px) {
+
+   .produk{
+       width: 120px;
+       height: 200px;
+   }
+   .produk img{
+       width: 100px;
+       height: 50px;
+   }
+   .produk a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(19, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+    }
+   .nama-produk{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    }
+   .hero {
+    height: 400px;                  
+    padding: 50px;
+    }
+
+    .hero h1{
+    color: azure;
+    font-size: 10px;
+    }
+}
